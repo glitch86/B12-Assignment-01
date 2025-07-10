@@ -182,3 +182,47 @@ section {
 .overview img {
     border-radius: 20px;
 }
+
+/* form */
+.form-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.form-container .heading {
+    width: 50%;
+    font-size: 70px;
+}
+
+.form fieldset{
+    border: none;
+}
+
+.form fieldset * {
+    display: block;
+    font-family: inter;
+    text-align: left;
+}
+
+.form label {
+    font-size: 15px;
+    margin: 15px 0;
+}
+
+.form input, .form textarea {
+    padding: 20px;
+    font-size: 15px;
+    width: 400px;
+    border-radius: 10px;
+    border: none;
+}
+
+.form textarea {
+    resize: none;
+}
+
+.form button {
+    width: 440px;
+    margin: 20px 0;
+}

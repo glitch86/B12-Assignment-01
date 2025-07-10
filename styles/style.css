@@ -79,9 +79,37 @@ section {
 }
 .left-half p {
     font-size: 24px;
-    color: rgba(0, 0, 0, .5);
+    color: rgba(0, 0, 0, 0.5);
 }
 
 .right-half img {
     border-radius: 30px;
+}
+
+/* user-stats */
+.user-stats {
+    background-color: rgba(78, 71, 255, 0.2);
+    padding: 50px 140px;
+    border-radius: 20px;
+}
+
+.user-stats h2 {
+    font-size: 40px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.stats h1 {
+    font-family: inter;
+    font-size: 80px;
+    color: #4E47FF;
+    margin: 0;
+}
+
+.stats p {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
 }

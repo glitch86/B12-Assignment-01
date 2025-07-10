@@ -54,4 +54,34 @@ header {
     font-size: 65px;
 }
 
+/* main */
 
+main {
+    width: 80%;
+    margin: auto;
+}
+
+section {
+     margin: 100px 0;
+}
+.action-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-half {
+    text-align: left;
+    width: 50%;
+}
+
+.left-half h2 {
+    font-size: 42px;
+}
+.left-half p {
+    font-size: 24px;
+    color: rgba(0, 0, 0, .5);
+}
+
+.right-half img {
+    border-radius: 30px;
+}
